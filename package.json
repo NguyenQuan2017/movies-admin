@@ -1,5 +1,5 @@
 {
-  "name": "movies-server",
+  "name": "movies-admin",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -20,8 +20,17 @@
     "@angular/platform-browser": "^6.0.3",
     "@angular/platform-browser-dynamic": "^6.0.3",
     "@angular/router": "^6.0.3",
+    "@auth0/angular-jwt": "^2.0.0",
+    "angular2-jwt": "^0.2.3",
+    "bootstrap": "^4.1.2",
     "core-js": "^2.5.4",
+    "jquery": "^3.3.1",
+    "jquery-menu-aim": "^1.1.0",
+    "popper.js": "^1.14.3",
     "rxjs": "^6.0.0",
+    "rxjs-compat": "^6.2.2",
+    "tether": "^1.4.4",
+    "tooltip.js": "^1.2.0",
     "zone.js": "^0.8.26"
   },
   "devDependencies": {

@@ -27,9 +27,18 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.css",
+              "./src/assets/css/reset.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./src/assets/js/modernizr.js",
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/tether/dist/js/tether.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./node_modules/jquery-menu-aim/jquery.menu-aim.js",
+//              "./src/assets/js/app.js"
+            ]
           },
           "configurations": {
             "production": {

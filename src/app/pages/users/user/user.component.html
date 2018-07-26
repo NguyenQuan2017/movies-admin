@@ -1,0 +1,27 @@
+<div class="users ">
+  <div class="breadcrumbs">
+    <h1 class="font-weight-bold">Admin > Users</h1>
+  </div>
+  <div class="add-users">
+
+  </div>
+  <div class="list-users">
+    <table class="table table-bordered">
+      <thead class="table-dark">
+      <tr class="m-0">
+        <th class="w-10 text-uppercase">id</th>
+        <th class="w-50 text-uppercase">name</th>
+        <th class="w-25 text-uppercase">email</th>
+        <th class="w-25 text-uppercase">action</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr class="m-0" *ngFor="let user of users">
+        <td class="w-10">{{ user.id }}</td>
+        <td class="w-50">{{ user.name }}</td>
+        <td class="w-25">{{ user.email }}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
